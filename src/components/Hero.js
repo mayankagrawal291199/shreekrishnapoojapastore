@@ -347,7 +347,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
           >
             <PrimaryButton
-              href="https://wa.me/919824997129?text=Hello! I want to place an order for puja items."
+              href="https://wa.me/919510542579?text=Hello! I want to place an order for puja items."
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

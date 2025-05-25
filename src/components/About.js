@@ -250,7 +250,7 @@ const About = () => {
           viewport={{ once: true }}
         >
           <SectionTitle variants={itemVariants}>
-            About Shree Krishna Poojapa Store
+            About Shree Radhe Pooja Shop
           </SectionTitle>
           <SectionSubtitle variants={itemVariants}>
             Bringing divine blessings to your doorstep with authentic spiritual
@@ -269,7 +269,7 @@ const About = () => {
               <CardTitle>Our Heritage</CardTitle>
               <CardText>
                 Founded with deep reverence for spiritual traditions, Shree
-                Krishna Poojapa Store has been serving devotees for years. We
+                Radhe Pooja Shop has been serving devotees for years. We
                 understand the sacred importance of authentic puja materials and
                 strive to provide products that enhance your spiritual journey.
               </CardText>

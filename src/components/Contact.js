@@ -304,7 +304,7 @@ Email: ${formData.email}
 Phone: ${formData.phone}
 Message: ${formData.message}`;
 
-    const whatsappUrl = `https://wa.me/919824997129?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/919510542579?text=${encodeURIComponent(
       message
     )}`;
     window.open(whatsappUrl, "_blank");
@@ -393,8 +393,8 @@ Message: ${formData.message}`;
                   <FaWhatsapp />
                 </InfoIcon>
                 <InfoText>
-                  <div className="label">WhatsApp</div>
-                  <div className="value">+91 98249 97129</div>
+                  <div className="label">WhatsApp - Ashish Bansal</div>
+                  <div className="value">+91 95105 42579</div>
                 </InfoText>
               </InfoItem>
 
@@ -406,8 +406,8 @@ Message: ${formData.message}`;
                   <FaPhone />
                 </InfoIcon>
                 <InfoText>
-                  <div className="label">Phone</div>
-                  <div className="value">+91 98249 97129</div>
+                  <div className="label">Phone - Mohit Bansal</div>
+                  <div className="value">+91 82005 01012</div>
                 </InfoText>
               </InfoItem>
 
@@ -420,7 +420,7 @@ Message: ${formData.message}`;
                 </InfoIcon>
                 <InfoText>
                   <div className="label">Email</div>
-                  <div className="value">info@shreekrishnapoojapa.com</div>
+                  <div className="value">info@shreeradhepooja.com</div>
                 </InfoText>
               </InfoItem>
 
@@ -434,7 +434,7 @@ Message: ${formData.message}`;
                 <InfoText>
                   <div className="label">Address</div>
                   <div className="value">
-                    123 Temple Street, Spiritual City, India
+                    Shree Radhe Pooja Shop, Main Market, India
                   </div>
                 </InfoText>
               </InfoItem>
@@ -453,7 +453,7 @@ Message: ${formData.message}`;
               </InfoItem>
 
               <WhatsAppButton
-                href="https://wa.me/919824997129?text=Hello! I'm interested in your spiritual products."
+                href="https://wa.me/919510542579?text=Hello! I'm interested in your spiritual products."
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -534,7 +534,7 @@ Message: ${formData.message}`;
             <SocialTitle variants={itemVariants}>Follow Us</SocialTitle>
             <SocialLinks>
               <SocialLink
-                href="https://wa.me/919824997129"
+                href="https://wa.me/919510542579"
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={itemVariants}

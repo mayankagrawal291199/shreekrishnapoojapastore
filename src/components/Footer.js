@@ -312,7 +312,7 @@ const Footer = () => {
               <CompanyInfo>
                 <Logo>
                   <FaOm className="om-symbol" />
-                  <span className="company-name">Shree Krishna Poojapa</span>
+                  <span className="company-name">Shree Radhe Pooja Shop</span>
                 </Logo>
                 <CompanyDescription>
                   Your trusted partner for authentic spiritual products. We
@@ -321,7 +321,7 @@ const Footer = () => {
                 </CompanyDescription>
                 <SocialLinks>
                   <SocialLink
-                    href="https://wa.me/919824997129"
+                    href="https://wa.me/919510542579"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.1 }}
@@ -426,21 +426,26 @@ const Footer = () => {
 
                 <ContactItem variants={itemVariants}>
                   <FaPhone />
-                  +91 98249 97129
+                  Ashish: +91 95105 42579
+                </ContactItem>
+
+                <ContactItem variants={itemVariants}>
+                  <FaPhone />
+                  Mohit: +91 82005 01012
                 </ContactItem>
 
                 <ContactItem variants={itemVariants}>
                   <FaEnvelope />
-                  info@shreekrishnapoojapa.com
+                  info@shreeradhepooja.com
                 </ContactItem>
 
                 <ContactItem variants={itemVariants}>
                   <FaMapMarkerAlt />
-                  123 Temple Street, Spiritual City, India
+                  Shree Radhe Pooja Shop, Main Market, India
                 </ContactItem>
 
                 <WhatsAppButton
-                  href="https://wa.me/919824997129?text=Hello! I'm interested in your spiritual products."
+                  href="https://wa.me/919510542579?text=Hello! I'm interested in your spiritual products."
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
@@ -455,7 +460,7 @@ const Footer = () => {
 
           <FooterBottom>
             <Copyright>
-              © 2024 Shree Krishna Poojapa Store. Made with{" "}
+              © 2024 Shree Radhe Pooja Shop. Made with{" "}
               <FaHeart className="heart" /> for spiritual souls.
             </Copyright>
 

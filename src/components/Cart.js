@@ -255,7 +255,7 @@ const Cart = ({
 }) => {
   const generateWhatsAppMessage = () => {
     const safeTotal = totalPrice || 0;
-    let message = "🛒 *Order from Shree Krishna Poojapa Store*\n\n";
+    let message = "🛒 *Order from Shree Radhe Pooja Shop*\n\n";
     message += "📋 *Order Details:*\n";
 
     items.forEach((item, index) => {
@@ -269,14 +269,14 @@ const Cart = ({
     message += `💰 *Total Amount: ₹${safeTotal}*\n\n`;
     message +=
       "📞 Please confirm this order and let me know the delivery details.\n\n";
-    message += "🙏 Thank you for choosing Shree Krishna Poojapa Store!";
+    message += "🙏 Thank you for choosing Shree Radhe Pooja Shop!";
 
     return encodeURIComponent(message);
   };
 
   const handleWhatsAppOrder = () => {
     const message = generateWhatsAppMessage();
-    const whatsappUrl = `https://wa.me/919824997129?text=${message}`;
+    const whatsappUrl = `https://wa.me/919510542579?text=${message}`;
     window.open(whatsappUrl, "_blank");
   };
 

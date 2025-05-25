@@ -298,7 +298,11 @@ const Header = ({ cartItemsCount, onCartClick }) => {
         <ContactInfo>
           <ContactItem>
             <FiPhone size={14} />
-            <span>+91 98249 97129</span>
+            <span>Ashish: +91 95105 42579</span>
+          </ContactItem>
+          <ContactItem>
+            <FiPhone size={14} />
+            <span>Mohit: +91 82005 01012</span>
           </ContactItem>
           <ContactItem>
             <FiMail size={14} />
@@ -312,8 +316,8 @@ const Header = ({ cartItemsCount, onCartClick }) => {
         <Logo to="/">
           <LogoIcon>🕉️</LogoIcon>
           <LogoText>
-            <h1>Shree Krishna</h1>
-            <p>Poojapa Store</p>
+            <h1>Shree Radhe</h1>
+            <p>Pooja Shop</p>
           </LogoText>
         </Logo>
 
@@ -340,7 +344,7 @@ const Header = ({ cartItemsCount, onCartClick }) => {
 
         <RightSection>
           <WhatsAppButton
-            href="https://wa.me/919824997129?text=Hello! I'm interested in your products."
+            href="https://wa.me/919510542579?text=Hello! I'm interested in your products."
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
